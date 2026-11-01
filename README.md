@@ -18,8 +18,7 @@ ansible-automation/
 ├── build_server.yml     # Main playbook, calls the 3 roles
 ├── java_role/           # Installs OpenJDK 17, sets JAVA_HOME
 ├── maven_role/          # Installs Maven
-├── docker_role/         # Installs Docker, log rotation, handler
-└── trainer_reference/   # Trainer's example code, for reference only
+└── docker_role/         # Installs Docker, log rotation, handler
 ```
 
 ## Roles
@@ -62,4 +61,3 @@ Each step has a Jira ticket (ANS-1 to ANS-10). Commit messages start with the ti
 
 ## Credits
 
-The example code in `trainer_reference/` is from my DevOps trainer's repo. The Java, Maven and Docker roles are my own work.

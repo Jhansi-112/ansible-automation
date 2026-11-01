@@ -1,6 +1,0 @@
----
-# defaults file for nginx_role
-nginx_listen_port: 80
-nginx_root_dir: /var/www/html
-server_name: localhost
-
