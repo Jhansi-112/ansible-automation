@@ -1,0 +1,5 @@
+---
+java_version: 17
+java_package: "openjdk-{{ java_version }}-jdk"
+java_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+java_home: "/usr/lib/jvm/java-{{ java_version }}-openjdk-{{ java_arch }}"

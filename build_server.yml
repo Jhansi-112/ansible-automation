@@ -1,0 +1,9 @@
+---
+- name: Set up build server (Java, Maven)
+  hosts: build_servers
+  become: yes
+  roles:
+    - role: java_role
+      tags: java
+    - role: maven_role
+      tags: maven
