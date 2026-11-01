@@ -1,0 +1,6 @@
+*.pem
+*.key
+*ed25519*
+id_rsa*
+*.retry
+.vault_pass
