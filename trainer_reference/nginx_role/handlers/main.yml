@@ -1,8 +1,0 @@
-##---
-# handlers file for nginx_role
----
-- name: Restart NGINX
-  systemd:
-    name: nginx
-    state: restarted
-
