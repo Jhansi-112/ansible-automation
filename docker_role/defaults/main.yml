@@ -1,0 +1,6 @@
+---
+docker_package: docker.io
+docker_users:
+  - ubuntu
+docker_log_max_size: "10m"
+docker_log_max_file: "3"

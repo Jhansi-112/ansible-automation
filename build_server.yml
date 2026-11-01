@@ -1,5 +1,5 @@
 ---
-- name: Set up build server (Java, Maven)
+- name: Set up build server (Java, Maven, Docker)
   hosts: build_servers
   become: yes
   roles:
@@ -7,3 +7,5 @@
       tags: java
     - role: maven_role
       tags: maven
+    - role: docker_role
+      tags: docker
