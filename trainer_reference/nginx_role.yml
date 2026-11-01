@@ -1,0 +1,14 @@
+- name: Deploy NGINX using Ansible Role
+  hosts: web_servers
+  become: yes
+  roles:
+    - nginx_role
+
+### run using tags 
+#ansible-playbook nginx.yml --tags install
+## run everything 
+##ansible-playbook nginx.yml
+
+###Repalce the value using 
+##ansible-playbook nginx.yml -e "server_name=example.com"
+
